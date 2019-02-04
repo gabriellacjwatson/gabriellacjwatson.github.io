@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family="Poiret One" rel="stylesheet");
 h1 { font-family: "Snell Roundhand", cursive; font-size: 50px; text-align: center;
 }
 body {
@@ -6,3 +7,4 @@ body {
 }
 
 a {font-style: italic;}
+.important {font-style: bold; color:#571CB1;}
