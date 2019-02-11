@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family="Poiret One" rel="stylesheet");
+
+h1 { font-family: "Snell Roundhand", cursive; font-size: 50px; text-align: center; color: #590026;}
+
+header {background-color: #FFFFFF; text-align: center; padding: 2em;}
+
+nav {text-align: center; color: #FFFFFF}
+
+body { background-color: #590026; }
+
+a {font-style: italic;}
+.important {font-style: bold; color:#571CB1;}
+
+#board1 {background-color: #F0DBFF; 
+		width: 600px;
+		margin: 0 auto;
+		padding: 3em;
+		border: 3px solid white;
+		text-align: center;}
+
+#board2 {background-color: #F0DBFF; 
+		width: 600px;
+		margin: 0 auto;
+		padding: 3em;
+		border: 3px solid white;
+		text-align: center;}
+
+#board3 {background-color: #F0DBFF; 
+		width: 600px;
+		padding: 3em;
+		margin: 0 auto;
+		border: 3px solid white;
+		text-align: center;}
+
+#moreinfo {text-align: center; background-color: rgb(116,171,227); padding: 2em;}
+
+footer{text-align: center;}
+
+span { background-color:#F0DBFF; 
+	width: 100px; 
+	padding: 0.5em;  
+	margin: 0.5em;
+	font-style: italic; }
