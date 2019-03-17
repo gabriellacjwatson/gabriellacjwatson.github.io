@@ -1,0 +1,207 @@
+* { margin:0; padding:0; box-sizing:border-box; } 
+
+body { 
+	background-color: #FAFAFA; 
+	font-size: 40px;
+}
+
+header{ 
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-size: 100%;
+	height: 45em;
+}
+
+#about{
+	float:left;
+	padding-top: 15em;
+	padding-left: 0.5em;
+	color: white;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 2.2em;
+	text-decoration: bold;
+}
+
+h2{
+	font-size: 1.5em;
+	padding-top: 1em;
+	font-family: Calibri;
+	text-decoration: bold;
+}
+
+#intro{ 
+	font-size: 1em;
+	color: white;
+	width: 53%;
+	font-family: Calibri;
+}
+
+nav{ 
+	text-align: center;
+	margin-top: 0.5em; 
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+a{
+	background-color: #ADD1B9;
+	color: black;
+	text-decoration: none;
+	padding: 0.5em;
+	display: inline-block;
+	margin: 0.5em;
+	border: black;
+	font-family: Calibri;
+}
+
+a:hover{ 
+	background-color: #B2A2A2;
+	color: black; 
+}
+
+#subtitle {
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+	color: #B2A2A2;
+	padding-top: 0.5em;
+	margin-top: 0.5em;
+}
+
+.column {
+	width: 31.3%;
+	padding: 0.2em;
+	margin: 1%;
+	float: left;
+	text-align: center;
+	font-family: Calibri;
+}
+
+.cta { 
+	background: none;
+	color: white;
+	text-decoration: bold;
+	text-decoration: underline; 
+	text-align: center;
+ }
+
+ .maintext {
+ 	text-align: left;
+ 	padding-left: 0.2em;
+ }
+
+h3 { 
+	font-family: Calibri;
+}
+
+.columnimage { 
+	width: 100%;
+ }
+
+#column1 { 
+	background-color: #8FC5D1; 
+}
+
+#column2 { 
+	background-color: #6BA1AB; 
+}
+
+#column3 { 
+	background-color: #498E96; 
+}
+
+#subtitle2{ 
+	text-align: center; 
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+	color: black;
+}
+
+#moreinfo {
+	text-align: center; 
+	background-color: #B2A2A2; 
+	font-family: Calibri;
+}
+
+.location {
+	background: none;
+	color: black;
+	text-decoration: bold;
+	text-decoration: underline; 
+	font-family: 'Satisfy', cursive;
+	font-size: 1.5em;
+}
+
+footer{
+	text-align: center;
+	font-family: Calibri;
+	margin-top: 1.5em;
+}
+@media only screen and (max-width: 1200px) {
+	.column {
+		float: none;
+		width: 60%;
+		margin: auto; 
+		margin-bottom: 1%;
+		padding: 1em;
+	}
+	.columnimage { 
+	width: 70%%;
+ 	}
+ 	#about { 
+ 	font-size: 15px; 
+ 	}
+ 	#intro { font-size: 15px; 
+ 	}
+}
+@media only screen and (max-width: 900px) {
+	header{
+		background-image: none;
+		background-color: #B2A2A2;
+		height: 35em;
+	}
+	#about{ 
+		float: none;
+		text-align: center; 
+		padding-top: 10em;
+	}
+	h1 { 
+		color: black; 
+		font-size: 3em;
+		}
+	h2{
+		font-size: 2em;
+	}
+	#intro {
+		color: white;
+		text-align: center;
+		width: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 1.5em;
+	}
+	#subtitle { 
+	font-size: 2em; 
+	}
+}
+@media only screen and (max-width: 480px) {
+	.column {
+		float: none;
+		width: auto;
+		margin: 1%;
+	}
+	#subtitle { 
+	font-size: 2em; 
+	}
+}
+
